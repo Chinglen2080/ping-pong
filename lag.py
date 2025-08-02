@@ -10,13 +10,13 @@ def ram_stress(size_mb):
     a = []
     amount = size_mb * 1024 * 1024 // 8
     while True:
-        a.extend([1] * amount)  # Will eat memory as fast as possible
+        a.extend([1] * amount)  # eat memory fast
 
 def print_counter():
     count = 1
     while True:
         print(f"Stress test running... Count: {count}")
-        count += 1  # Prints extremely fast, flooding the console
+        count += 1  # console flooding
 
 if __name__ == "__main__":
     cpu_threads = []
@@ -42,6 +42,6 @@ if __name__ == "__main__":
 
     while True:
         try:
-            pass  # No sleeping here!
+            pass  # UNO!
         except KeyboardInterrupt:
-            pass  # Ignore Ctrl+C, continue running
+            pass  # No going back
