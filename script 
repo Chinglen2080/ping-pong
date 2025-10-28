@@ -1,0 +1,53 @@
+“Good morning everyone.
+We are presenting our project — ‘Automatic denial system for vehicle .’
+This project helps stop unauthorized vehicles automatically using sensors and a servo motor.
+
+The components we have used are:
+
+Arduino Uno – It is the brain of our project.
+
+Two Ultrasonic Sensors – One detects objects at 20 cm distance and the other at 15 cm.
+
+One Servo Motor – It lifts and lowers the road barrier.
+
+A Buzzer – It gives siren sound in case of an emergency.
+
+orange, Red and Blue LEDs – They flash like a police siren when an enemy vehicle is detected.
+
+A Colorful LED – It glows when the system is ON and everything is safe.
+
+A Switch – To turn the system ON or OFF.
+
+Jumper Wires, Breadboard, and a 9V Battery for power and connections.
+
+All of these components are connected to the Arduino Uno on a cardboard base.”
+
+🎙️ (Lenard – 1:00 to 2:00 minute)
+
+“Now, let me explain the working of our project.
+
+When the switch is turned ON and no object is in front of the sensors, the colorful LED glows showing that the system is ready.
+
+When Sensor 1 detects an object within 20 centimeters, the servo motor moves 45 degrees, lifting the thermocol road slightly.
+At the same time, the orange LED and buzzer turn ON for 8 seconds.
+This shows that a vehicle is approaching the army gate.
+
+If the vehicle or enemy comes even closer, within 15 centimeters, Sensor 2 gets activated.
+Then the servo moves 70 degrees, lifting the road higher to stop the vehicle.
+The red and blue LEDs flash alternately like a police siren, and the buzzer makes an emergency sound.
+
+After 8 seconds, if no new object is detected, everything turns OFF automatically, and the road comes back down.”
+
+🎙️ (Chinglen – 2:00 to 3:00 minute)
+
+“Now let’s talk about the mechanical setup and real-life use.
+
+We made the road using thermocol, attached to the servo motor horn using glue.
+The servo is fixed on one side of the base, and when it rotates, it lifts the thermocol road just like a real gate.
+At 45 degrees, it slightly lifts for checking, and at 70 degrees, it completely blocks the way.
+
+This project can be very useful in army camps, toll gates, and security checkpoints, because it automatically detects any approaching vehicle and stops it if needed — without human effort.
+
+It also adds safety since the buzzer and flashing lights give a warning signal to the soldiers.
+
+Thank you!” all together
